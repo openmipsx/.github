@@ -22,12 +22,17 @@ open replacement firmware for those adapters as the goal.
 | [llvm-project](https://github.com/openmipsx/llvm-project/tree/mipsx) (branch `mipsx`) | LLVM with an experimental `MIPSX` target: Clang, lld and the LLVM tools |
 | [picolibc](https://github.com/openmipsx/picolibc/tree/mipsx) (branch `mipsx`) | The C library, ported to MIPS-X |
 | [ghidra-mipsx](https://github.com/openmipsx/ghidra-mipsx) | Ghidra processor module for MIPS-X and a loader for SPA firmware images |
+| [devices](https://github.com/openmipsx/devices) | Teardowns and fact-only specs of the target adapters: hardware, firmware image format, processor |
 
 ## Status
 
 Experimental. Clang compiles C for MIPS-X, and the output is tested on
 the simulator. Nothing built with these tools has run on real hardware
 yet, and the first toolchain release is in preparation.
+
+The [plan](https://github.com/openmipsx/.github/blob/main/plan/open-source-stack.md)
+sets out how the replacement firmware is to be built from open-source
+components, and the obstacles in the way.
 
 ## Clean room
 
